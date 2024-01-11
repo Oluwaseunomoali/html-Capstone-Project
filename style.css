@@ -1,0 +1,124 @@
+
+
+
+body{
+    margin: 0;
+}
+
+
+
+h1 class {
+    font-size: 20pt;
+    color: blue;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #B4D4FF, #EEF5FF, #86B6F6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .Facebook{
+    padding: 25px;
+    display: inline-flex;
+  }
+  .Linkedin{
+    padding: 25px;
+    display: inline-flex;
+  }
+  .Twitter{
+    padding: 25px;
+    display: inline-flex;
+  }
+  .Instagram{
+    padding: 25px;
+    display: inline-flex;
+  }
+  .footer{
+    display: inline-flex
+    
+  }
+  
+  
+.Qualification{
+  font-size: 20px;
+  align-content: center;
+  justify-content: center;
+  text-align: justify;
+
+}
+.Work{
+  font-size: 20px;
+  align-content: center;
+  justify-content: center;
+  text-align: justify;
+}
+.Contact{
+  font-size: 20px;
+  align-content: center;
+  justify-content: center;
+  text-align: justify;
+
+}
+.footer-background {
+  background: linear-gradient(300deg, #EEF5FF, #DDF2FD, #C2D9FF);
+  padding-bottom: 0px;
+  animation: gradient-animation 18s ease infinite;
+  margin-bottom: 0;
+  padding: 5px;
+}
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 20px;
+  
+}
+svg {
+  stroke: none;
+}
+#ali{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.Resume {
+  background-color: #DDF2FD;
+}
+.highlight{
+  color: #2c0dde;
+  font-family: cursive;
+  font-weight: bolder;
+}
+#Welcome{
+  color: rgb(14, 14, 85);
+  
+}img{
+  border-radius: 8px;
+  max-width: 100px;
+  height: 100px;
+  box-shadow: 4px 5px 10px #14085b;
+}
